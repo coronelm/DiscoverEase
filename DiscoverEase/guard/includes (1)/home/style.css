@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px 20px;
+  gap: 50px;
+}
+
+
+
+.lost-item {
+    width: 360px;
+    height: 350px;
+    background-color: #E64848;
+    border: 2px solid #F5A31A;
+ 
+}
+
+.found-item {
+    width: 360px;
+    height: 350px;
+    background-color: #E64848;
+    border: 2px solid #F5A31A;
+  
+}
+
+
+p {
+    font-size: larger;
+    font-family: 'canva sans', sans-serif;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}

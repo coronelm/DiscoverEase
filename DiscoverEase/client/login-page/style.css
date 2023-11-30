@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'canva sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    background-color: #E64848;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 15px;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+    
+}
+
+.login-container h2 {
+    font-size: 24px;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    text-align: left; /* Align label text to the left */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.password-input {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    cursor: pointer;
+    color: #777; /* Darker color when password is hidden */
+}
+
+button {
+    background-color: #F5A31A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC83D;
+}

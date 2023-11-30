@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-style: none;
+    width: 100%;
+    height: auto;
+    font-family: 'canva sans', sans-serif;
+    overflow-y: auto;
+}
+
+html, body{
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+header{
+    text-align: center;
+    min-height: 30px;
+    font-size:30px;
+}
+
+
+.first-container{
+    min-height: 100%;
+    min-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    margin-left:20px;
+    
+}
+.title{
+    float: right;
+    font-weight: bolder;
+    padding: 20px 0;
+    width: 100%;
+    
+    
+}
+.title label{
+    font-size: 70px;
+}
+.title h1{
+    font-size: 50px;
+}
+
+.second-container{
+    min-height: 150px;
+    width: 100%;
+    }
+    
+.signout {
+    float: right;
+    width: 250px;
+    height: 60px;
+font-size: 30px;
+margin: 20px 150px 0 0;
+border-radius: 40px;
+border: 0;
+font-weight: bolder;
+}   
+
+.wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    height: 120%;
+}
+
+
+.main-content{
+    margin-top:130px;
+    z-index: 0;
+    align-items: center;
+    height: fit-content;
+    margin-top: 0.5px;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 90px;
+
+    
+}#iframe1{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+  
+}
+
+
+
+#iframe2,
+#iframe3{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: none;
+    border: 1px solid black;
+    
+}

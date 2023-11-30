@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'canva sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px ;
+}
+
+label {
+    margin-top: 20px;
+}
+.image-upload {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    margin-left:60px;
+}
+
+.custom-file-upload {
+    border: 2px solid #E64848;
+    background-color: #F5A31A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    width: 240px;
+    height: 100px;
+
+}
+
+.form-fields {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.stack {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+.field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 5px;
+    border: 2px solid #E64848;
+    width: 250px;
+    
+}
+
+button {
+    background-color: #E64848;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+button:hover {
+    background-color: #F5A31A;
+}
+
+.seperate1{
+    padding-right: 100px;
+}

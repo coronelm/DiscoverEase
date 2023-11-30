@@ -1,0 +1,20 @@
+.first-container{
+    background-color: white;
+}
+
+.signout{
+    background-color:rgb(255, 200, 0);
+    color:white;
+    margin-right: 15px;
+}
+
+.signout:hover{
+    background-color: aqua;
+    transition: .2s;
+}
+
+  
+  .signout:active {
+    transform: translateY(10px);
+  }
+  

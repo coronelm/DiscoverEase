@@ -1,0 +1,75 @@
+nav{
+    width: 100%;
+    height: 80px;
+    /* margin:51px 20px 0 20.5px; */
+    display: flex;
+    /* position: absolute; */
+    /* z-index: 0; */
+    /* margin-top: 5px; */
+    justify-content: center;
+    
+}
+nav button{
+    background-color: white;
+    width: 200px;
+    border: 0;
+    z-index: 0;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'canva sans', sans-serif;
+    font-weight: bold;
+    
+}
+.button1{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+iframe{
+    width: 2000px;
+    height: 400px;
+    margin:0 auto;
+    /* position: absolute; */
+    z-index: 0;
+    display: none;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+
+
+#iframe1{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+  
+}
+
+#iframe2,
+#iframe3,
+#iframe4{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    display: none;
+    border: 1px solid black;
+    
+ 
+    
+}
+
+
+.main-content{
+    margin-top:130px;
+    /* width: fit-content; */
+    height: 1000px;
+    z-index: 0;
+    align-items: center;
+    height: fit-content;
+    margin-top: 0.5px;
+    justify-content: center;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+
+
+}
+.container{
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+
+}
+
+
+.list{
+width: 90%;
+height: 80px;
+display: inline-flex;
+margin: 2px;
+text-align: center;
+gap: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 1px solid  black;
+
+}
+
+.table-container .view{
+    margin: 20px 20px;
+    float: right;
+border: 2px solid black;
+border-radius: 20px;
+font-weight: bold;
+background-color:rgb(255, 200, 0);
+color:white;
+transition: .2s ease;
+}
+
+.table-container .view:hover{
+    background-color: aqua;
+    transform: translateY(10px) scale(1.2);
+
+}
+.table-container .view:active {
+    transform: translateY(10px) scale(2.2);
+}
+.table-container{
+    width: 99%;
+    height: 80%;
+    display: flex;
+}
+p{
+width: 100px;
+}
